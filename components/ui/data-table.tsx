@@ -21,7 +21,7 @@ import {
 	TableHeader,
 	TableRow,
 } from '@/components/ui/table'
-import { ArrowLeft, ArrowLeftCircle, ArrowRight } from 'lucide-react'
+import { ArrowLeft, ArrowRight } from 'lucide-react'
 
 interface DataTableProps<TData, TValue> {
 	columns: ColumnDef<TData, TValue>[]
